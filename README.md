@@ -4,4 +4,4 @@ To edit the 2 player decks, click on the Decks panel of the main menu, then add,
 
 To play the game, click the game panel, read the instructions, and then click on the green "conquer" button to begin playing!
 
-Created by Joseph Miller, Austin Moore, Eduardo Trevino, and Andrew Mitchel.
+Created by UTSA Deck-Builder Team.
