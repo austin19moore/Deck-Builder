@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.InstructionController">
+   <children>
+      <ImageView fitHeight="922.0" fitWidth="808.0" layoutX="-7.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Background%202.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="backButton" layoutY="-2.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+      <Text fontSmoothingType="LCD" layoutX="275.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructions" textAlignment="CENTER">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="44.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="Instructions" editable="false" layoutX="203.0" layoutY="227.0" opacity="0.86" prefHeight="346.0" prefWidth="395.0" text="The goal of the game is to push one card all the way to the other side of the board. Each round starts with the draw phase. Ending the draw phase automatically draws you a card. This card goes to your hand. You can have a maximum of 5 cards in your hand. The next phase is the play phase. This is when you can play cards to the board. You can play your cards to your &quot;Start Zone&quot;, colored red for player one and blue for player two. You can play as many cards as you would like, during the play phase. After than is the move phase. Cards can move a total number of spaces equal to the number next to the &quot;S&quot; on the card (this represents the cards speed). The distance the card can move is determined by the sum of the movement in an x and y direction. Next, is the fight phase. You can select one of your cards to attack, and then an enemy card that is adjacent or diagnal to your card and have them fight. Every time a card fights it takes damage equal to the attack of the opponent. If the card takes more damage than the card has in its defense it is destroyed. The last phase is the end phase. If you have more than 6 cards in your hand then you must discard down to 5. If your cards have taken any damage, but survived than the damage is removed at the end of the turn." wrapText="true" />
+      <Button fx:id="ConquerButton" alignment="CENTER" defaultButton="true" layoutX="340.0" layoutY="609.0" mnemonicParsing="false" onAction="#handleConquer" prefHeight="50.0" prefWidth="121.0" text="Conquer" textFill="WHITE" />
+   </children>
+</AnchorPane>

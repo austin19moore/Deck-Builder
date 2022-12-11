@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CreditsController">
+   <children>
+      <Button fx:id="backButton" layoutX="-1.0" layoutY="-1.0" mnemonicParsing="false" onAction="#backButton" prefHeight="20.0" prefWidth="45.0" text="Back">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="295.0" layoutY="121.0" text="Deck Builder">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="167.0" text="Deck Builder Team">
+         <font>
+            <Font name="Calibri Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="312.0" layoutY="274.0" text="Joseph Miller">
+         <font>
+            <Font name="Calibri Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="335.0" text="Austin Moore">
+         <font>
+            <Font name="Calibri Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="400.0" text="Eduardo Trevino">
+         <font>
+            <Font name="Calibri Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="468.0" text="Andrew Mitchel">
+         <font>
+            <Font name="Calibri Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="400.0" layoutY="240.0" startX="-100.0" />
+   </children>
+</AnchorPane>
