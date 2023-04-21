@@ -7,3 +7,5 @@ To play the game, click the game panel, read the instructions, and then click on
 Created by UTSA Deck-Builder Team.
 
 ![image](https://user-images.githubusercontent.com/80301847/233739915-e6cc1f76-0dbb-4366-bf57-19e002a6dabf.png)
+
+![image](https://user-images.githubusercontent.com/80301847/233739985-1b43f074-01af-4d29-bd4a-2506e6716472.png)
